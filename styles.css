@@ -6,13 +6,17 @@ Mobile view should appear only if the width of the browser is equal to or less t
 * {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}      
+
+h1 {
+    box-align: center;
 }
 
 p {
     background-color: azure;
     font-size: 18px;
     padding: 15px;
-    }
+}
 
 .left {
     font-weight: bold;
@@ -24,18 +28,21 @@ div {
     background-color: #225588;
     border-color: black;
     border-width: 3px;
-    width: 33%;
+    width: 33.33%;
     padding: 15px;
     margin: 15px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    div {
+    .col-med-6 {
         width: 50%;
-        padding: 15px;
     }
-    #tres {
+    .col-med-12 {
         width: 100%;
-        padding: 15px;
     }
-        }
+}
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
