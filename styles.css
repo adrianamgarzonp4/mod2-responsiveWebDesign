@@ -5,8 +5,14 @@ Mobile view should appear only if the width of the browser is equal to or less t
 
 * {
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
     background-color: azure;
+    font-size: 18px;
+}
+
+.left {
+    font-weight: bold;
 }
