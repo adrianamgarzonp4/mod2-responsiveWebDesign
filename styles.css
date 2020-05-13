@@ -6,16 +6,17 @@ Mobile view should appear only if the width of the browser is equal to or less t
 * {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }      
 
 h1 {
-    align-content: center;
+    text-align: center;
 }
 
 p {
     background-color: azure;
     font-size: 18px;
-    padding: 15px;
 }
 
 .left {
@@ -29,6 +30,7 @@ div {
     border-color: black;
     border: 3px;
     margin: 15px;
+    padding: 15px;
     width: 33.33%
 }
 
