@@ -6,44 +6,100 @@ Mobile view should appear only if the width of the browser is equal to or less t
 * {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 0px;
     margin: 0px;
 }      
 
-h1 {
-    text-align: center;
+body {
+    margin: 30px;
 }
 
-p {
-    background-color: azure;
-    font-size: 18px;
+h1 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    font-size: 1.75em;
+}
+
+section {
+    position: relative;
+}
+
+.all {
+    width: 32%; 
+    margin-bottom: 2%;
+    border: solid 1px;
+    border-color: #000000;
+    float: left;
+}
+
+#lentil, #kale {
+    margin-right: 2%
 }
 
 .left {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+    color: white;
     text-align: center;
+    font-size: 1.25em;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-right-style: none;
+    border-top-style: none;
+    border-color: #000000;
+    padding: 4px;
+    position: relative;
+    float: right;
+    clear: left;
 }
 
-div {
-    background-color: #225588;
-    border-color: black;
-    border: 3px;
-    margin: 15px;
-    padding: 15px;
-    width: 33.33%
+#ls {
+    background-color: #173f5f;
+}
+
+#ks {
+    background-color: #0a3509;
+}
+
+#yp {
+    background-color: #1f0757;
+}
+
+p {
+    background-color: azure;
+    font-size: 16px;
+    padding: 45px 15px 15px 15px;
+}
+
+#soup {
+    background-color: #a3e5ee; 
+}
+
+#salad {
+    background-color: #7fc0ad;
+}
+
+#parfait {
+    background-color: #c89ed4;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .col-med-6 {
-        width: 50%;
+        width: 49%;
     }
     .col-med-12 {
         width: 100%;
     }
+    #kale {
+        margin-right: 0
+    }
 }
+
 @media (max-width: 767px) {
     .col-sm-12 {
         width: 100%;
+    }
+    .all {
+        position: relative;
     }
 }
